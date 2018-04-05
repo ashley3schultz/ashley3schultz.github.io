@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Code To A Tea
 header-img: img/home-bg.png
 email: ashleyeschultz@gmail.com
 copyright_name: ashley3schultz
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Enjoying The Process
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ashley3schultz
