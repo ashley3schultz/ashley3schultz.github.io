@@ -11,7 +11,7 @@ I have always been a student at heart. I don’t like just knowing information b
 
 I had no original agenda to become so knowledgeable about tea, it was really my passion that made a way for me. I wanted to know more about tea so I began a journey.
 
-![](https://drive.google.com/open?id=1XBu8tKVv7jPIRH0Yi6efXqlK8nNLPyRN)
+<a href='https://drive.google.com/file/d/1XBu8tKVv7jPIRH0Yi6efXqlK8nNLPyRN/view?usp=drive_web&amp;usp=embed_facebook&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/Q3Jl3kzYTm6omr37h5PzhpBrJW11bbVOEgqPJPBaDh68ArCGGhhRccAQMHY=w2400' /></a>
 
 You are probably wondering what tea has to do with coding…  Well both tea and coding are a life long journey for me.
 
@@ -24,7 +24,7 @@ My coding journey all began with Microsoft Excel… At first it was a simple nee
 
 The idea intrigued me and I would start creating a tiny little feature, I didn’t know how to read or write code, I would simply ask google how to do it. 
 
-![](https://drive.google.com/open?id=1kyvx8wZTmtEm-wrYe9uNpuRSNzNxgyhr)
+<a href='https://drive.google.com/file/d/1kyvx8wZTmtEm-wrYe9uNpuRSNzNxgyhr/view?usp=drive_web&amp;usp=embed_facebook&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/fAaYwc6d89L-s69PJHOxO2aDsaB2vxjIzJ-fHZ_tQi8Ze6qDo6L2rLKHSwM=w2400' /></a>
  
 Then I would add another feature, quickly I had dynamic systems that automated 90% of the tasks involved using VBA (Visual Basic for Applications). So I guess I accidently learned VBA… God Bless Google! 
 
@@ -38,7 +38,7 @@ Then it happened, I asked myself:
 
 The more I thought about it the more my heart became tied to the idea. It wasn't just a logical decision anymore.  But how do you begin something as  big as a career change? Well, I guess the same way my tea journey and coding journey began; yet another Google search…
 
-![](https://drive.google.com/open?id=1YcxSfyI_mUkVR35Yyovcmtv_Zm7JWbSU)
+<a href='https://drive.google.com/file/d/1YcxSfyI_mUkVR35Yyovcmtv_Zm7JWbSU/view?usp=drive_web&amp;usp=embed_facebook&source=ctrlq.org'><img src='https://lh5.googleusercontent.com/256rWBEXphGvS5yxtmTJ6Y0D8jdm9gfZVngXyx9wAHL7PSfxXuGL52LJE_A=w2400' /></a>
  
 So right then, I started on a journey with no end. 
 Here’s to new starts, learning, and above all enjoying the process… most often with a cup of tea.
