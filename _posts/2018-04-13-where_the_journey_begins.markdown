@@ -1,13 +1,13 @@
 ---
 layout: post
 title:      "Where the Journey Begins"
-date:       2018-04-13 21:01:50 +0000
+date:       2018-04-13 17:01:51 -0400
 permalink:  where_the_journey_begins
 ---
 
 I have always been a student at heart. I don’t like just knowing information but I enjoy understanding it and I enjoy the process to understanding. 
 
-**I am a student of tea… **
+**I am a student of tea…**
 
 I had no original agenda to become so knowledgeable about tea, it was really my passion that made a way for me. I wanted to know more about tea so I began a journey.
 
