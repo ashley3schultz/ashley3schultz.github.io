@@ -19,7 +19,9 @@ You are probably wondering what tea has to do with coding…  Well both tea and 
 I don’t ever want to be done learning about either!
 
 My coding journey all began with Microsoft Excel… At first it was a simple need to organize and manage data but along the way, I couldn’t shake the thought that excel could do more; I would ask myself: 
-*"what if I could automate this entire process?"*  
+
+*"what if I could automate this entire process?"*
+
 The idea intrigued me and I would start creating a tiny little feature, I didn’t know how to read or write code, I would simply ask google how to do it. 
 
 ![](https://drive.google.com/open?id=1kyvx8wZTmtEm-wrYe9uNpuRSNzNxgyhr)
@@ -31,7 +33,8 @@ While the end result was stunningly functional and a tremendous time saver… I 
 My passion for it stretched beyond work and become something I would think about all the time. What if I changed this or added that. Even while I slept, I dreamed in scenarios using booleans and loops. 
 
 Then it happened, I asked myself: 
-*“If I love this so much, why am I not pursuing this as my career?” *
+
+*“If I love this so much, why am I not pursuing this as my career?”*
 
 The more I thought about it the more my heart became tied to the idea. It wasn't just a logical decision anymore.  But how do you begin something as  big as a career change? Well, I guess the same way my tea journey and coding journey began; yet another Google search…
 
