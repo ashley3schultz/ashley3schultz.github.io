@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Having Tea With Sinatra!"
-date:       2018-06-21 21:16:14 +0000
+date:       2018-06-21 17:16:15 -0400
 permalink:  having_tea_with_sinatra
 ---
 
@@ -25,33 +25,33 @@ I started on some simple forms to get those working, all the way keeping my acti
 Once I had my forms working, I started to build logic into my action paths and added some security measures and helper measures. 
 
 **Helpers**
-1. Verify weather the user is logged in
-2. Can determine who the current user of the session is.
-3. Verifies the one editing is a valid owner which also checked logged in status.
+1. logged_in? -- Verifies weather the user is logged in or not.
+2. current_user -- determines who the current user is.
+3. valid_owner? -- Verifies the one editing is the valid owner which also checks logged in status.
 
 **Securities**
-1. I used bcrypt to create a secure password for users and this also authenticates that user while logging in.
-2. has "logged in" checks in every path.
-3. If editing anything I coded a check to verify you are the valid owner of that item.
-4. f you are logged in, you can see the login or signup pages.
-5. if you are not logged in you can only see the login or signup pages. 
+1. Password encryption -- I used bcrypt to create a secure password for users.
+2. Logged_in checks -- checks in every action path.
+3. Before editing -- I coded a check to verify user is the valid owner of that item.
+4. Pages not-visability if logged in -- if you are logged in, you can't see the login or signup pages.
+5. Pages visable if not logged in -- if you are not logged in you can only see the login or signup pages. 
 
 **Common senses** (ok not a real term but we all know what these are)
-1. When signing up the programs checks if the user name or email exists in the system, if it does, you'll be redirected.
+1. When signing up, the program checks if the user name or email exists in the system, if it does, you'll be redirected.
 2. When creating an a new tea, it checks to see if it exists. If it does, it we'll just take you to that page.
 3. I also created a tea class method to sort teas by type (oxidation)
-That last one brought an error because I had named the column type. You can't use "type" as a column name as it interferes with an activerecord command, so I ended up renaming that column “oxidation” which is more accurate anyway. 
+That last one brought an error because I had named the column type. You can't use "type" as a column name as it interferes with activerecord, so I ended up renaming that column “oxidation” which is more accurate anyway. 
 
-So now that all the logic and helpers and security checks are in place, I then just did a little formatting to make the page more intuitive. I didn't go crazy with the design; I'll probably go back at some point. I just added a background picture and enlarged some texts and forms for a little easier navigation.
+So now that all the logic, helpers and security checks are in place, I then did a little formatting to make the page more intuitive. I didn't go crazy with the design; I'll probably go back at some point. I just added a background picture and enlarged some texts and forms for a little easier navigation.
 
 I also created a menu at the top because... 'Common sense'
 
 
 Lastly I added some error messages in the event someone fills in the form incorectly.
 
-Then I published the website http://tea-connoisseur.com 
-Alternate names I considered, while they were clever and punny I thought it may make it a little too wonky. 
-Still may make another with that theme. You'll just have to wait to find out what that is.
+The app name is Tea Connoisseur
+I considered alternate names, while they were clever and punny I thought it may make it a little too wonky. 
+Still may make another with that fun theme. You'll just have to wait to find out what that is.
 
 
 
