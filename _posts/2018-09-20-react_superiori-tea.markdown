@@ -10,7 +10,7 @@ When I thought about this react project, I really wanted to do a game which is s
 
 **Superiori-tea**
 
-this is a tea harvesting game which you can pick leaves from the tea trees and collect them into your basket. there are five levels, one for each oxidation of tea (black, green, oolong, white and yellow) and on each level careful attention needs to be given to pick the right cultivar (tree variety) as well as collecting the right leaves such as the buds, young leaves and so on, you can also earn bonus point for collecting all the best leaves with no extra and your bonus will be based on the remaining seconds in the game. 
+This is a tea harvesting game which you can pick leaves from the tea trees and collect them into your basket. there are five levels, one for each oxidation of tea (black, green, oolong, white and yellow) and on each level careful attention needs to be given to pick the right cultivar (tree variety) as well as collecting the right leaves such as the buds, young leaves and so on, you can also earn bonus point for collecting all the best leaves with no extra and your bonus will be based on the remaining seconds in the game. 
 
 ![](https://drive.google.com/open?id=FILEID)
 
