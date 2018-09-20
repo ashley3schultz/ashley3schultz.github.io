@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "React SuperioriTEA"
+title:      "React Superiori-TEA"
 date:       2018-09-20 15:11:45 -0400
 permalink:  react_superiori-tea
 ---
@@ -32,8 +32,8 @@ I created several components who had child components, who had child component..
 
 Finally I added styling, I actually added some tree styling in the beginning to have better testing ability, but I finished off the final styling near the end as well as cleaning up the code a bit. The game plays out through  the levels and saves to the api when completed and. I made it very simple in that I gave exact directions on how to play which also show live scoring with each leaf click. so I any given point in the level you can see the purity of your basket,  the quality of the basket and what percentage you have collected of the best leaves. I will most likely add a difficulty level which will eliminate tips and some score views to make it a little more difficult. Overall the game is what I imagined it would be. It also has a ton of potential to expand with levels and variety of challenges. 
 
-Rails API: https://github.com/ashley3schultz/superiori-tea-api
-React App: https://github.com/ashley3schultz/superiori-tea
+[Rails API]([ https://github.com/ashley3schultz/superiori-tea-api)
+[React App]( https://github.com/ashley3schultz/superiori-tea)
 
 
 
