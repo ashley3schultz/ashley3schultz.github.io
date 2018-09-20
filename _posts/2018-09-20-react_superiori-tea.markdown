@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "React Superiori-Tea"
-date:       2018-09-20 19:11:45 +0000
+title:      "React SuperioriTEA"
+date:       2018-09-20 15:11:45 -0400
 permalink:  react_superiori-tea
 ---
 
