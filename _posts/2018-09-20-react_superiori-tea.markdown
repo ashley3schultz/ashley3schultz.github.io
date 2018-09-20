@@ -12,7 +12,7 @@ When I thought about this react project, I really wanted to do a game which is s
 
 This is a tea harvesting game which you can pick leaves from the tea trees and collect them into your basket. there are five levels, one for each oxidation of tea (black, green, oolong, white and yellow) and on each level careful attention needs to be given to pick the right cultivar (tree variety) as well as collecting the right leaves such as the buds, young leaves and so on, you can also earn bonus point for collecting all the best leaves with no extra and your bonus will be based on the remaining seconds in the game. 
 
-![](https://drive.google.com/open?id=FILEID)
+![screenshot](https://raw.githubusercontent.com/ashley3schultz/superiori-tea/master/src/components/images/screenshot.png)
 
 One of the most time consuming aspects what how to align the leaf images. I need them to layout in order and the is a left side and a right side so getting them to align correctly was a bit of a fun puzzle. Secondly, I need the leaves to collect into my state when clicked and then disappear.
 
@@ -28,7 +28,15 @@ In the game component, I prevented some components like level, score and tea tre
 
 I created several components who had child components, who had child component...
 
-![](https://drive.google.com/open?id=1lck8uaF6kHz0LDSlB0ypoQ05InlP-qNe)
+App
+1. Game Container
+* User Input
+* Game => Trees => Tree => Leaves
+2. Top Scores
+* Scores
+3. My Scores
+* User Input
+* Scores
 
 Finally I added styling, I actually added some tree styling in the beginning to have better testing ability, but I finished off the final styling near the end as well as cleaning up the code a bit. The game plays out through  the levels and saves to the api when completed and. I made it very simple in that I gave exact directions on how to play which also show live scoring with each leaf click. so I any given point in the level you can see the purity of your basket,  the quality of the basket and what percentage you have collected of the best leaves. I will most likely add a difficulty level which will eliminate tips and some score views to make it a little more difficult. Overall the game is what I imagined it would be. It also has a ton of potential to expand with levels and variety of challenges. 
 
