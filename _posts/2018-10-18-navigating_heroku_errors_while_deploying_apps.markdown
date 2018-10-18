@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Navigating Heroku Errors While Deploying Apps"
-date:       2018-10-18 21:28:34 +0000
+date:       2018-10-18 17:28:35 -0400
 permalink:  navigating_heroku_errors_while_deploying_apps
 ---
 
@@ -12,7 +12,7 @@ There is a lot of information about how to deploy an app to heroku, However, the
 
 Here are a few steps to get your app deployed
 
-**## 1. Convert your rails app to use a postgresql database.**
+### ** 1. Convert your rails app to use a postgresql database.**
 
 **gemfile.rb**
 ```
@@ -27,28 +27,29 @@ end
 
 *remove ‘sqlite3 ’ if someplace else*
 
-**##2. Create a Procfile - This tells heroku how to start your app.**
+### **2. Create a Procfile - This tells heroku how to start your app.**
 
 **Procfile**
 `Web: bundle exec rails server –p $PORT`
 
-**##3. Make sure to commit changes**
+### **3. Make sure to commit changes**
 `git add .`
 `git commit -m "Make db changes for heroku & add procfile"`
 `git push`
 
-**##4. Run the following commands in the terminal**
+### **4. Run the following commands in the terminal**
 `heroku create yourappname`
 `git push heroku master`
 
-**##5. Migrate database on heroku, if you don't have a database then skip this step**
+### **5. Migrate database on heroku, if you don't have a database then skip this step**
 `heroku run rake db:migrate`
 `heroku run rake db:seed` if applicable 
 
-**##Finally open the app to see if it is up and running and everything looks good.**
+### **6. Finally open the app to see if it is up and running and everything looks good.**
+
 ----------------------------------------------------------------------------------
 
-**##ERRORS**
+## ERRORS
 If you app fails to deploy, you'll see this near the bottom of the script.
 
 `Push rejected, failed to compile Ruby app`
@@ -58,13 +59,13 @@ Here are some of the errors I encountered and how I fixed them.
 
 First scroll back through the script that just ran to deploy your app and you may see yellow or red text that points to a specific issue. You may also see that your app successfully deployed but it still isn't working.
 
-**##Two lock files Error**
+### **Two lock files Error**
 This will keep your app from deploying successfully. If you have two lock file like package.lock and yarn.lock, you will need to delete the package.lock file. Make sure to commit your changes before running: 
 `git push heroku master`
 `heroku run rake db:migrate`
 `heroku run rake db:seed` if applicable 
 
-**##AJAX not working**
+### **AJAX not working**
 if your jquery doesn’t work in your deployed app, go into the following file: 
 **app/views/layouts/application.html.erb**
 inside your head tags near the top of the file there is a script tag which points to jquery src
@@ -73,7 +74,7 @@ Make sure it is an http**s** url as heroku url is https and your server url is p
 
 *Note: when you do this, your jquery may not work on your local server if it was a http url. *
 
- **##API not fetching data**
+ ### **API not fetching data**
  If you are deploying a ruby API, you will need to update your urls. 
  My scenario included two deployed app, one being a ruby API and the other being a react app. 
  I changed the react app url so it fetches from my new API. This was in my env file but you may have it someplace else.
@@ -81,7 +82,7 @@ Make sure it is an http**s** url as heroku url is https and your server url is p
 **config/initializers/cors.rb**
 
 
-**##Navigating additional errors** 
+### **Navigating additional errors** 
 All the data is there and should tell you what happened in the logs and there are two ways to view your logs which should help you figure out the error. Once you identify an error, try googling the error and usually you can find a fix pretty quickly.
 
 **From the command Line: **
