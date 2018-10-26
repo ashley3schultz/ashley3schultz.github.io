@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Flattening Deeply Nested Arrays"
-date:       2018-10-26 22:24:44 +0000
+date:       2018-10-26 18:24:45 -0400
 permalink:  flattening_deeply_nested_arrays
 ---
 
@@ -69,4 +69,7 @@ var array = [1, 2, 3, [4, [1, 2, 3]], 5, [6]]
 flattenArray(array)
 =>  [1, 2, 3, 4, 1, 2, 3, 5, 6]
 ```
+
+For a the entire app, Take a look at the github repo: 
+https://github.com/ashley3schultz/flatten-array
 
