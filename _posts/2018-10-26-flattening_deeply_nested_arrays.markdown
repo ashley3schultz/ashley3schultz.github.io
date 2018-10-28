@@ -6,10 +6,10 @@ permalink:  flattening_deeply_nested_arrays
 ---
 
 
-Recently I put together a function that flattens an array. Simple enough but I decided to also add feature for flattening deeply nested arrays as well, because why limit yourself. I actually went fully for it and made a small react app where you can enter an array into the form and it will return the flattened array. 
+Recently I put together a function that flattens an array. Simple enough but I decided to also add features for flattening deeply nested arrays as well, because why limit yourself. I actually went fully for it and made a small react app where you can enter an array into the form and it will return the flattened array. 
 
-For setup in my react app I added to state attributes, one for the array entered and one for the flattened array. 
-I chose not to have this be the same one so that you could see the previous one and the flattened one at the same time rather than just updated the original. 
+For setup in my react app I added two state attributes, one for the array entered and one for the flattened array. 
+I chose not to have this be the same one so that you could see the previous one and the flattened one at the same time rather than just updating the original. 
 
 **The State**
 
