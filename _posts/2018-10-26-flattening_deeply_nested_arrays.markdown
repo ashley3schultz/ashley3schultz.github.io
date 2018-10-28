@@ -60,7 +60,7 @@ I chose not to have this be the same one so that you could see the previous one 
   }
 ```
 
-One of my favorite JS features is that you can call a function while inside that same function. I created an empty array variable within the flattenArray function and then declared a function inside of it to deeply flatten. Anytime there is an array while iterating over the array, it simply we call the function again and at the end we have a completely flattened array. For a code challenge this was meant for integers only. 
+One of my favorite JS features is that you can call a function while inside that same function. I created an empty array variable within the flattenArray function and then declared a function inside of it to deeply flatten. Anytime there is an array while iterating over the array, it simply calls the function again and at the end we have a completely flattened array. This code challenge was meant for integers only. 
 This is what we end up with
 
 ```
