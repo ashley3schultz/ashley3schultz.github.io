@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Has And Blongs To Many - Same Model"
-date:       2018-12-03 06:57:04 +0000
+date:       2018-12-03 01:57:05 -0500
 permalink:  has_and_blongs_to_many_-_same_model
 ---
 
@@ -66,7 +66,7 @@ end
 ```
 <div>
 <% @members.each do |member| %>
-    <p><%= member.name %></p>
+    <p><%= link_to member.name, "/#{member.id}" %></p>
 <% end %>
 </div>
 ```
@@ -75,7 +75,9 @@ end
 ```
 <div>
 <h2><%= @member.name %></h2>
-<p><%= @pairs.first.name %></p>
+<% @pairs.each do |pair| %>
+    <p><%= link_to pair.name, "/#{pair.id}" %></p>
+<% end %>
 </div>
 ```
 
