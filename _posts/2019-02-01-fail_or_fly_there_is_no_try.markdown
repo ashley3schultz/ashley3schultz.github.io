@@ -5,7 +5,7 @@ date:       2019-02-01 16:04:47 -0500
 permalink:  fail_or_fly_there_is_no_try
 ---
 
-I completed a technical challenge yesterday, it's not my first but I still get pre-test anxiety. It's all the mystery on the other side of the "Start Challenge" button and you start questioning everything that you know and wondering about what you don't know that you don't know. Then the questions started flooding in.
+I completed a technical challenge yesterday, it's not my first but I still get pre-test anxiety. It's all the mystery on the other side of the "Start Challenge" button and you start questioning everything that you know and wondering about what you don't know that you don't know. Then the questions start flooding in.
 
 1. What if I get stumped...
 2. What if I don't come up with the best solution...
