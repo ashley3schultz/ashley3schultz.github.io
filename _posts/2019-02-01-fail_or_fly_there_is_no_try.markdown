@@ -67,15 +67,21 @@ jedi_training()
 ```
 
 Enter A Question:
+
 *Am I not good enough to beat Vader*   => set the_force -1
+
 **You have the power of the Dark side**
 
 Enter A Question:
+
 *Is the force with me?*   => set the_force 0
+
 **You have the power of the Light side**
 
 Enter A Question:
+
 *Am I going to hack the death star?*   => set the_force 1
+
 **You have the power of the Light side**
 
 Enter A Question:
