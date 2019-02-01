@@ -40,7 +40,7 @@ As you can predict, whatever you pass into the argument will return "YES!".
 
 > Research is beginning to reveal that positive thinking is about much more than just being happy or displaying an upbeat attitude. Positive thoughts can actually create real value in your life and help you build skills that last much longer than a smile. [read article](https://www.huffpost.com/entry/positive-thinking_b_3512202)
 
-This article explain how positive thoughts open your mind to possibilities and even set you up for success in the future, while negative ones close your mind and limit you from seeing opportunities and possibilities. 
+This article explains how positive thoughts open your mind to possibilities and even set you up for success in the future, while negative ones close your mind and limit you from seeing opportunities and possibilities. 
 
 In light of the fact that our positive and negative thoughts shape our near future, I imagine a bank if you will that can go into a positive and negative balance and change our default thought process. 
 
