@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Fail Or Fly, There Is No Try"
-date:       2019-02-01 21:04:46 +0000
+title:      "Fail Or Fly There Is No Try"
+date:       2019-02-01 16:04:47 -0500
 permalink:  fail_or_fly_there_is_no_try
 ---
 
