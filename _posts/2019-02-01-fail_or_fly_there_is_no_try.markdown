@@ -18,7 +18,7 @@ In light of all the interview jitters I have been thinking about the power of se
 ```
 def self_talk():
     arg =  input("Enter A Question:\n").lower()
-    print("YES! {}!".format(arg.replace("am i", "You are")).replace("?",""))
+    print("YES! {arg.replace("am i", "You are")).replace("?","")}!")
 				
 self_talk() 
 ```
