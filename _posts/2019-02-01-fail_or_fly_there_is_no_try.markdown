@@ -21,6 +21,7 @@ def self_talk():
     print("YES! {}!".format(arg.replace("am i", "You are")).replace("?",""))
 				
 self_talk() 
+```
 
 Enter A Question:
 *Am I good enough?*
@@ -29,7 +30,6 @@ Enter A Question:
 Enter A Question:
 *Am I worthless?*
 **YES! You are worthless!**
-```
 
 
 As you can predict, whatever you pass into the argument will return "YES!".
