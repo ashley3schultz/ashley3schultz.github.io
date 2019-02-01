@@ -23,13 +23,13 @@ def self_talk():
 self_talk() 
 ```
 
-Enter A Question:
-*Am I good enough?*
-**YES! You are good enough!**
-
-Enter A Question:
-*Am I worthless?*
-**YES! You are worthless!**
+> Enter A Question:
+> *Am I good enough?*
+> **YES! You are good enough!**
+> 
+> Enter A Question:
+> *Am I worthless?*
+> **YES! You are worthless!**
 
 
 As you can predict, whatever you pass into the argument will return "YES!".
@@ -66,27 +66,23 @@ def jedi_training():
 jedi_training()
 ```
 
+```
 Enter A Question:
-
 *Am I not good enough to beat Vader*   => set the_force -1
-
 **You have the power of the Dark side**
 
 Enter A Question:
-
 *Is the force with me?*   => set the_force 0
-
 **You have the power of the Light side**
 
 Enter A Question:
-
 *Am I going to hack the death star?*   => set the_force 1
-
 **You have the power of the Light side**
 
 Enter A Question:
 *Am I trying hard enough*   => doesn't change the_force
 **Do or do not, there is no try!**
+```
 
 All that to say…
  When the pre-test questions arose, I took a different approach before clicking start. I sat at my computer and stared at the button.
