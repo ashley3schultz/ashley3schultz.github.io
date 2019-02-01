@@ -23,12 +23,12 @@ def self_talk():
 self_talk() 
 
 Enter A Question:
-Am I good enough?
-YES! You are good enough!
+*Am I good enough?*
+**YES! You are good enough!**
 
 Enter A Question:
-Am I worthless?
-YES! You are worthless!
+*Am I worthless?*
+**YES! You are worthless!**
 ```
 
 
@@ -66,7 +66,7 @@ def jedi_training():
 jedi_training()
 
 Enter A Question:
-Am I not good enough to beat Vader   => set the_force -1
+Am I not good enough to beat Vader   #=> set the_force -1
 You have the power of the Dark side
 
 Enter A Question:
