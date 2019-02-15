@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Custom Functions for WordPress"
-date:       2019-02-15 23:33:53 +0000
+date:       2019-02-15 18:33:54 -0500
 permalink:  custom_functions_for_wordpress
 ---
 
@@ -10,7 +10,7 @@ This week I had a few tasks in my freelance developer world. Most of the time th
 
 I was looking for a plugin that displays certain information for the current user. Yes, there are plugin that offer that but there usually limited to a handful of shortcodes and I have found them to be limited. 
 
-> In light of the fact that I have already been using a plug in called *User Shortcodes* I decided to grab all data they provided with their six shortcodes. 
+In light of the fact that I have already been using a plug in called *User Shortcodes* I decided to grab all data they provided with their six shortcodes. 
 *User Shortcodes* offers six shortcodes
 1. [currentuser_username] – Display the current user name
 2. [currentuser_useremail] – Display the current user email
@@ -24,6 +24,7 @@ All that, but I still needed two more user attributes, so I decided to just a wr
 Basically I need a phone number and an address so I started with the phone number function.
 
 **Phone Number**
+
 ```
 function show_cu_phone_function( $atts ) {
 global $current_user, $user_login;
@@ -46,6 +47,8 @@ It will look something like this
 ```
 <input type="text" name="billing_phone" id="billing_phone" value="" class="regular-text">
 ```
+
+**Address**
 
 so we repeat these steps to create the address shortcode, this this time there are several attributes the address so we format everything a little different
  
@@ -78,6 +81,7 @@ Now that we have all the functions, let’s talk implementation.
 There are two ways to go about implementing these new functions so you can use them on the site. 
 
 **Plugin**
+
 *My Custom Functions* is a WordPress plugin that makes this all very easy. This is easier for a couple reasons. 
 1. no need to access the application files. 
 2. If you update your theme, you don't need to worry about transferring the functions over. 
@@ -89,6 +93,7 @@ Then save it and you should be set.
 
 
 **Update theme**
+
 To update the theme you need to have access to the application files. Go in and edit the functions.php file and paste the functions in the file. They should go just above the last closing tag.
 ```?>```
 
@@ -96,9 +101,11 @@ Make sure to check you site to be sure the code is working and it didn't break t
 
 No finally in a page, we can call our shortcodes like this.
 
-**[cu_phone]
-[cu_street]
-[cu_csz]**
+**[cu_phone]**
+
+**[cu_street]**
+
+**[cu_csz]**
 
 This is how it looks when editing the page, but if the fields are not empty, you will see the data printed on the actual page. 
 
