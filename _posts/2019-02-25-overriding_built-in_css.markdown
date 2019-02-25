@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Overriding Built-in CSS"
-date:       2019-02-25 22:37:37 +0000
+date:       2019-02-24 22:37:37 +0000
 permalink:  overriding_built-in_css
 ---
 
