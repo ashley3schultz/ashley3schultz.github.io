@@ -6,7 +6,7 @@ permalink:  overriding_built-in_css
 ---
 
 
-This week while working on a freelance project I came across some plug-in styling issues. Plugin are great and quick way to implement features on WordPress, but they often come with styling that doesn’t suit you needs in some little way. In this case, I had nested drop downs
+This week while working on a freelance project I came across some plug-in styling issues. Plugins are great and quick way to implement features on WordPress, but they often come with styling that doesn’t suit your needs in some little way. In this case, I had nested drop downs
 ```
 <div>Country</div>
   <div>State</div>
@@ -14,7 +14,7 @@ This week while working on a freelance project I came across some plug-in stylin
       <div>Content</div>
 ```
 			
-So when you click on the country herder you see the state headers and then click in the state header to see the cities and then finally you click on the city header to reveal the content.
+So when you click on the country header you see the state headers and then click in the state header to see the cities and then finally you click on the city header to reveal the content.
 
 If you had a ton of content under each of these tabs, this would be a good setup, but in this case, there was just one listing per state so all those dropdown clicks where cumbersome for our needs.
 
