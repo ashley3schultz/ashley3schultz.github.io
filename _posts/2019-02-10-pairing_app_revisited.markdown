@@ -19,7 +19,7 @@ No matter how long it takes, when debugging or problem solving, I'm always hit w
 So here is the long awaited simple pattern for pairing up members. 
 
 
-|  | 1st | 2nd | 3rd | 5th | 5th | 6th | 7th | 8th | 9th | 10th | 11th |
+|   | 1st | 2nd | 3rd | 5th | 5th | 6th | 7th | 8th | 9th | 10th | 11th |
 |---|---|---|---|---|---|---|---|---|
 | **0** | 6 | 11 | 5 | 10 | 4 | 9 | 3 | 8 | 2 | 7 | 1 |
 | **1** |	11 | 10 |	9 |	8 |	7 |	6 |	5 |	4 |	3 |	2 | **0** |
