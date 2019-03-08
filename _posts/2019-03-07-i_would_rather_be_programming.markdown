@@ -8,9 +8,9 @@ permalink:  i_would_rather_be_programming
 
 We've all seen those shirts or bumper stickers that say:
 
-**"I would rather be ______________________" **
+**"I would rather be _______________________"**
 
-*fill in the statement with something you enjoy. *
+*fill in the statement with something you enjoy.*
 
 Programming really is the thing that I would rather be doing and working as a software engineer is really just an excuse to get paid for what I am passionate about. I just feel lucky that I discovered a passion that pays.
 
@@ -62,7 +62,7 @@ About a year ago I stumbled on a song by Ben Howard titled "Oats In The Water".
 
 The words resonated with me so loudly. It wasn't a fresh revelation but it puts words to what I had been feeling for such a long time. 
 
-**No one else's journey of success needs to define mine. **
+**No one else's journey of success needs to define mine.**
 
 **I don't need permission to pursue the thing I want even if it's less in other people’s eyes.**
 
