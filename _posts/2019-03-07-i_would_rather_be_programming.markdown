@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "I would rather be programming!"
-date:       2019-03-07 23:38:19 +0000
+date:       2019-03-07 18:38:20 -0500
 permalink:  i_would_rather_be_programming
 ---
 
@@ -71,4 +71,12 @@ The words resonated with me so loudly. It wasn't a fresh revelation but it puts 
 Something I realized about myself is that even though I'm really self-motivated and a natural leader, I actually really enjoy working for someone. I enjoy building things and I love being a part of a team and working together to build something.
 
 For the first time I'm giving recognition to the small fact that there's not only nothing wrong with my desires but there is also a lot right with it.
+
+In the words of Rami Malek: 
+
+> I'm a fan of being exactly what I want to be
+
+[!<img src="https://i.ytimg.com/vi/vhzTiFLHS5Y/maxresdefault.jpg" alt="img"
+width="500" />](https://dms.licdn.com/playback/C4E05AQEn8nvlr4_hlQ/b10f10d393cf433e836fb68486db6ad5/feedshare-mp4_3300-captions-thumbnails/1507940147251-drlcss?e=1552089600&v=beta&t=kPW7Hqo_hW1SKlvTawCWQrjiM8yly8xsStZRLZ_HgXk "I'm A Fan" )
+
 
