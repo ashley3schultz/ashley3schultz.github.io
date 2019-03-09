@@ -18,15 +18,7 @@ No matter how long it takes, when debugging or problem solving, I'm always hit w
 
 So here is the long awaited simple pattern for pairing up members. 
 
----
-layout: post
-title:      "Pairing App Revisited"
-date:       2019-02-10 22:53:18 +0000
-permalink:  pairing_app_revisited
----
-
-
-![Table](https://drive.google.com/file/d/1YSMU-_DY2BB2C2KabXEWgmgNEEr2_AOx/view?usp=drive_web&amp;usp=embed_facebook&source=ctrlq.org)
+![Table](https://drive.google.com/file/d/1fa3Y6z7bV5Vh19NB82zj7yAuL-BDauWX/view)
 
 There should be an even number of members.
 The first one is the "Key" and we assign an id to each one starting with 0 and so the key id is equal to 0 and we assign the rest incrementing by 1.
