@@ -18,7 +18,7 @@ No matter how long it takes, when debugging or problem solving, I'm always hit w
 
 So here is the long awaited simple pattern for pairing up members. 
 
-![Table](https://drive.google.com/file/d/1fa3Y6z7bV5Vh19NB82zj7yAuL-BDauWX/view)
+![Table](http://drive.google.com/uc?export=view&id=1fa3Y6z7bV5Vh19NB82zj7yAuL-BDauWX)
 
 There should be an even number of members.
 The first one is the "Key" and we assign an id to each one starting with 0 and so the key id is equal to 0 and we assign the rest incrementing by 1.
