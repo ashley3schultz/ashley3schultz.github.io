@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Delay State Update For CSS Animation"
+title:      "Delay State Update For CSS Styling"
 date:       2019-03-17 23:30:21 -0400
 permalink:  delay_state_update_for_css_animation
 ---
@@ -106,10 +106,10 @@ I pass down a handleProjectHover function from the container to the ProjectsList
     }
   }
 	
-	...
-	```
+...
+```
 	
-Note:	*I wrapped most of it in an "if statement" because I don't need to update state if the target is already set to featured. *
+Note:	*I wrapped most of it in an "if statement" because I don't need to update state if the target is already set to featured.*
 ### Creating the featured project
 
 The last line of my handleProjectHover function, I update the animation to "loaded" and this is because I need to make sure the project is loaded which styles the image so it rests directly behind the carousel list at its starting point. So when I hover, the project in the list, it becomes transparent revealing the other image that will enlarge.
