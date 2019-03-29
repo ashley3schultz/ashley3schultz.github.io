@@ -36,6 +36,35 @@ We would all love to enjoy every aspect of what we do, but 100% enjoyment is pre
 
 I think it's ok if you don't love every aspect. The success I'm aiming for is reaching the point where the things that fill me outweigh the things that drain me; so there's perpetually more in my cup today than there was yesterday; and perhaps I know that programming is one of those things that fills my cup in a big way.
 
+```
+class Life
+
+  @@cup = 0
+
+  def self.reason(arg)
+    if arg == "i enjoy nothing"
+      @@cup -= 200
+      puts "Draining the life from you!"
+    elsif arg == "tollerable"
+      @@cup -= 100
+      puts "You'll survive!"
+    elsif
+      arg == "enjoyable"
+      @@cup += 100
+      puts "Solid choice!"
+    else arg == "life_passion"
+      @@cup += 200
+      puts "You're thriving!"
+    end
+  end
+
+end
+
+Life.reason('life_passion')
+
+#=> You're thriving!
+```
+
 I remember when I was doing more public speaking and I felt like I was getting closer to a version of myself that I thought looked successful. but to be honest, it didn't fulfill me the way other things do. I think I was more in love with the image of public speaking than the actual event. 
 
 About a year ago I stumbled on a song by Ben Howard titled "Oats In The Water". 
