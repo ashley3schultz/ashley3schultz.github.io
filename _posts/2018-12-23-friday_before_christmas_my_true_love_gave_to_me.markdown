@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Friday before Christmas my true love gave to me..."
-date:       2018-12-24 04:51:10 +0000
+date:       2018-12-23 23:51:10 -0500
 permalink:  friday_before_christmas_my_true_love_gave_to_me
 ---
 
@@ -14,7 +14,35 @@ Now a moment of silence for retailers everywhere...
 
 On a side note, I actually grew up off the grid in the mountains of Montana without electricity or internet. That being said, I have become very fond of every tech amenity there is to offer and I have no plans of returning to my rustic roots. As a souvenir, I could out survive anyone in a zombie apocalypse; however you won't find me camping by choice.
 
-So, back to the part where half the city returned to the dark ages... I'm at work getting ready to leave soon and suddenly an internet outage... only today was an exception as I had two interviews scheduled (via web conference) and the first one starting in one hour. I knew I could use my phone as a backup plan (Smart Phone, May it live forever); however I wanted to be prepared for wherever the interview went.
+So, back to the part where half the city returned to the dark ages... I'm at work getting ready to leave soon and suddenly an internet outage... only today was an exception as I had two interviews scheduled (via web conference) and the first one starting in one hour. 
+
+```
+class Life
+
+  @@disaster = 0
+
+  def self.obstacles(arg)
+    if @@disaster < 99
+      puts "You've passed the point of no return"
+    elsif arg == "No Internet At House"
+      @@disaster += 25
+    elsif arg == "No Internet At Friend's House"
+      @@disaster += 15
+    elsif arg == "No Internet At Coffee House"
+      @@disaster += 15
+    elsif arg == "No Internet At Husband's Work"
+      @@disaster += 20
+    else 
+      puts "Phone it is..."
+      puts "and hope you won't need WIFI"
+    end
+    @@disaster
+  end
+
+end
+```
+
+I knew I could use my phone as a backup plan (Smart Phone, May it live forever); however I wanted to be prepared for wherever the interview went.
 
 I quickly ran home to check if the internet was also down at my house, and indeed it was and what along with every charter user in the city which in a smaller town like ours, that's quite a lot.
 
